@@ -1,6 +1,7 @@
   * {
     padding: 0;
     margin: 0;
+    font-family: "sans-serif";
    
   }
   
@@ -212,7 +213,7 @@
 .hamburger-sidebar .social-media i{
    text-decoration: none;
    padding: 0px 5px;
-   color:#2F3645 ;
+   color:#fcfcfc ;
    line-height: 60px;
 }
 
@@ -233,7 +234,6 @@
 }
 
 .hamburger-sidebar .social-media :hover{
-   opacity: 1;
    transform: scale(1.5);
 }
 
@@ -268,15 +268,14 @@
 }
 
              /* oder now, book now box in main-content*/
+
+               /* select section*/
+
 .select{
    display: flex;
    justify-content: space-evenly;
-   flex-wrap: wrap;
-  
-   
-   
+   flex-wrap: wrap;  
 }
-
 .book-online  {
    display: flex;
    justify-content: center;
@@ -395,7 +394,7 @@ border-radius: 5%;
   }
 
 }
-
+         /* offer dection*/
 .offer {
   display: flex;
   justify-content:center;
