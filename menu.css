@@ -343,8 +343,8 @@
 
 @media (max-width: 570px) {
   .cook{
-   height: 210px;
-   width: 160px;
+   height: 230px;
+   width: 170px;
   }
   .cook-img img {
    height: 100px;
@@ -354,8 +354,8 @@
 
    @media (max-width: 365px) {
     .cook{
-     height: 200px;
-     width: 120px;
+     height: 230px;
+     width: 140px;
     }
     .cook-img img {
      height: 90px;
