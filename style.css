@@ -16,6 +16,7 @@
   .main-content {
     flex: 1;
     overflow: auto;
+    background-color:#fcfcfc;
   }
 
                /* side-bar */
@@ -256,14 +257,14 @@
 @media (max-width: 768px) {
   .bg-img {
     height: 20rem; /* Reduced height for tablets or mobile */
-    left: 0.75rem;
+    
   }
 }
 
 @media (max-width: 480px) {
   .bg-img {
     height: 15rem; /* Further reduced height for small mobile screens */
-    left: 0.5rem;
+    
   }
 }
 
@@ -346,21 +347,21 @@ border-radius: 5%;
   justify-content: space-evenly;
   text-align: center;
   flex-wrap: wrap;
-  background-color:#8086922c;
+ 
 
 }
 .top-brand img{
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  padding: 10px;
+  padding: 20px;
  
 }
 .top-brand p{
   font-size: 20px;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 500px) {
   .top-brand img {
    height: 100px;
    width: 100px; /* Further reduced height for small mobile screens */
@@ -374,21 +375,21 @@ border-radius: 5%;
   justify-content: space-evenly;
   text-align: center;
   flex-wrap: wrap;
-  background-color:#8086922c;
+  
 
 }
 .top-restaurant img{
   height: 200px;
   width: 200px;
   border-radius: 20px;
-  padding:10px;
+  padding:20px;
  
 }
 .top-restaurant p{
   font-size: 20px;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 500px) {
   .top-restaurant img {
    height: 100px;
    width: 100px; /* Further reduced height for small mobile screens */
@@ -429,14 +430,10 @@ border-radius: 5%;
   width: 250px;
   border-radius: 20px;
   margin:7px;
- 
-
- 
 }
 .cook-img{
   text-align: center;
   padding: 15px;
- 
  
 }
 .cook-img img{
@@ -448,6 +445,20 @@ border-radius: 5%;
   text-align: center;
   margin-top: 5px;
 }
+
+@media (max-width: 570px) {
+ .cook{
+  height: 300px;
+  width: 160px;
+ }
+ .cook-img img {
+  height: 100px;
+  width: 100px;
+ }
+  }
+
+
+
 
 
 
