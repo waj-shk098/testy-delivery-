@@ -1,4 +1,4 @@
-  * {
+* {
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -92,7 +92,7 @@
 }
                   /* sticky-nav-icons */
 .badge{
-    background-color: #eeeae7;
+    background-color: #e6b9a6;
     border: none;
     border-radius: 100px;
     padding: 0.25rem 1rem;
@@ -239,144 +239,46 @@
 }
 
 #check:checked ~ .hamburger-sidebar{
-   left:0px;}
+   left:0px;
+}
 
-            /* background img in main-content*/
 
-.bg-img{
-    background-image: url(./img/bg1.jpg);
-    height: 32rem; 
-    width: 100%; 
-    background-size: cover; 
-    background-position: center; 
-    background-position: top;
-    background-repeat: no-repeat;
-    object-fit: cover;
-  }
-            /* Adjust for smaller screens */
-@media (max-width: 768px) {
-  .bg-img {
-    height: 20rem; /* Reduced height for tablets or mobile */
-    
-  }
+.offer-baner{
+  background-image: url(./img/table0.jpg);
+  height: 22rem; 
+  width: 100%; 
+  background-size: cover; 
+  background-position:bottom; 
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+          /* Adjust for smaller screens */
+@media (max-width: 769px) {
+.offer-baner {
+  height: 13rem; /* Reduced height for tablets or mobile */
+
+}
 }
 
 @media (max-width: 480px) {
-  .bg-img {
-    height: 15rem; /* Further reduced height for small mobile screens */
-    
-  }
+.offer-baner {
+  height: 10rem; /* Further reduced height for small mobile screens */
+  
+}
 }
 
-             /* oder now, book now box in main-content*/
-
-               /* select section*/
-
-.select{
-   display: flex;
-   justify-content: space-evenly;
-   flex-wrap: wrap;  
-}
-.book-online  {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   position: relative;
-   width: 400px;
-   background-color: rgba(12, 6, 6, 0.67);
-   border-radius: 0.5rem;
-   padding:1rem ;
-   margin-top: 2rem;
-   color: white;
-}
-
-.book-online img{
-   height: 150px;
-   border-radius: 0.5rem;
-}
-
-.card-info{
-   font-size: 0.85rem;
-   opacity: 0.8;
-   text-align: center;
-}
-
- .oder-btn{
-  position:relative;
-  left: 1.5rem;
-}
-
-@media (max-width: 480px) {
-  .book-online {
-    width: 280px;/* Further reduced height for small mobile screens */
-  }
-    .book-online img{
-      height: 100px;
-  }
-}
-
-.video{
-display: flex;
-justify-content: center;
-align-items: center;
-
-}
-
-.mp4{
-width: 500px;
-padding: 20px;
-
-background-color: #8086922c;
-border-radius: 20px;
-
-}
-
-
-.mp3{
-height: 100%;
-width: 100%;
-border-radius: 5%;
-}
-.heading{
+.heading {
   margin-top: 50px;
   margin-bottom: 15px;
   text-align: center;
 }
-.brands{
-  display: flex;
-  justify-content: space-evenly;
-  text-align: center;
-  flex-wrap: wrap;
- 
 
-}
-.top-brand img{
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  padding: 20px;
- 
-}
-.top-brand p{
-  font-size: 20px;
-}
-
-@media (max-width: 500px) {
-  .top-brand img {
-   height: 100px;
-   width: 100px; /* Further reduced height for small mobile screens */
-
-  }
- 
-}
 
 .restaurant{
   display: flex;
   justify-content: space-evenly;
   text-align: center;
   flex-wrap: wrap;
-  
-
 }
 .top-restaurant img{
   height: 200px;
@@ -396,108 +298,68 @@ border-radius: 5%;
   }
 
 }
-         /* offer section*/
-.offer {
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  margin-top: 30px;
-}
 
-.offer-img img{
-  margin-left: 7px;
-  height: 150px;
-}
-
-.offer-text{
-  margin-left: 20px;
-  line-height:25px;
-}
-.offer-text span{
-  color:red;
-
-}
 .cook-master{
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
-}
-.cook{
-  background-color:#8086922c ;
-  height: 330px;
-  width: 250px;
-  border-radius: 20px;
-  margin:7px;
-}
-.cook-img{
-  text-align: center;
-  padding: 15px;
- 
-}
-.cook-img img{
-  height:200px;
-  width:200px;
-  border-radius: 50%;
-}
-.cook-text{
-  text-align: center;
-  margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .cook{
+    background-color:#8086922c ;
+    height: 330px;
+    width: 250px;
+   border-radius: 7px;
+    margin:10px;
+   
+  
+   
+  }
+  .cook-img{
+    text-align: center;
+    padding: 15px;
+  
+   
+  }
+  .cook-img img{
+    height:200px;
+    width:200px;
+    border-radius: 7px;
+  }
+  .cook-text{
+    text-align: center;
+    margin-top: 5px;
+  }
+
+.fod-btn{
+  position: relative;
+  left: 15px;
 }
 
 @media (max-width: 570px) {
- .cook{
-  height: 300px;
-  width: 160px;
- }
- .cook-img img {
-  height: 100px;
-  width: 100px;
- }
+  .cook{
+   height: 230px;
+   width: 170px;
   }
+  .cook-img img {
+   height: 100px;
+   width: 100px;
+  }
+   }
 
-.form-box{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
-}
-.form-content{
-  width: fit-content;
-  padding: 30px 40px;
-  border: 3px solid rgb(11, 10, 10);
-  border-radius: 20px;
-  background-color:#8086922c; 
-}
+   @media (max-width: 365px) {
+    .cook{
+     height: 230px;
+     width: 140px;
+    }
+    .cook-img img {
+     height: 90px;
+     width: 90px;
+    }
+     }
 
-.form-content div:not(.submit){
-  margin: 25px 0px;
-  border-bottom: 1px solid rgb(17, 16, 16);
-}
-
-input{
-  background-color: transparent;
-  border: none;
-  outline: none;
-  padding: 6px 4px;
-  color: rgb(18, 17, 17);
-  font-size: 18px;
-}
-
-.submit button{
-  border: none;
-  outline: none;
-  background-color: #0d0d0d;
-  color: rgb(248, 245, 245);
-  font-weight: bold;
-  padding: 8px 10px;
-  border-radius: 4px;
-  display: block;
-  margin: 0 auto;
-}
-
-      /*footer */
+        /*footer */
 footer {
   background-color: #333;
   color: #fff;
@@ -560,3 +422,5 @@ footer {
   margin-top: 20px;
   font-size: 14px;
 }
+   
+ 
